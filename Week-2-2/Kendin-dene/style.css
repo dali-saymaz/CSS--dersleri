@@ -1,0 +1,30 @@
+#main-container {
+  background-color: #00ffff;
+  max-width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+#container-1 {
+  width: 10vw;
+  height: 5vh;
+  background-color: #8a2be2;
+  margin-top: 20px;
+}
+
+#container-2 {
+  width: 400px;
+}
+
+.rectangle {
+  height: 50px;
+  background-color: #d2691e;
+  margin-top: 20px;
+}
+.rectangle2 > div {
+  height: 50px;
+  background-color: #285d8c;
+  margin-top: 20px;
+}

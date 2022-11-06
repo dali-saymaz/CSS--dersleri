@@ -1,0 +1,26 @@
+/* comment-1: the table with guests is aligned. section consists of 3 containers */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#dinner-table {
+  width: 500px;
+  height: 400px;
+  background-color: #e9820c;
+  border-radius: 7px;
+}
+/* comment-3: guests in the horizontal-guests class are horizontally aligned */
+.horizontal-guests {
+  height: 100px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+/* comment-4: all of guests are styled */
+.horizontal-guests > div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(1, 56, 56);
+  border-radius: 50%;
+}
